@@ -138,7 +138,6 @@ The gallery/cards, editor pages, and conditional home routing are evident in the
 No required env vars for local dev.
 When you add the backend, introduce:
 
-VITE_API_BASE_URL=http://localhost:3000
 
 
 Then replace the localStorage read/write in the Story Editor / Character Editor with fetch(${VITE_API_BASE_URL}/api/...).
